@@ -8,10 +8,12 @@ const SignupForm = () => {
     <>
       <div className="flex h-screen">
         {/* Left half - Logos + Signup Form */}
-        <div className="w-1/2 flex flex-col bg-white px-8 py-6 relative overflow-auto">
+        <div className="w-1/2 flex flex-col bg-gradient-to-b from-white via-gray-50 to-white px-8 py-6 relative overflow-auto">
           {/* Top Logo */}
-          <div className="flex justify-between items-center mb-8">
-            <img src={Rgenx_logo} alt="RDX Logo" className="h-10" />
+          <div className=" items-center mb-8 text-3xl font-bold text-gray-800">
+            {/* <img src={Rgenx_logo} alt="RDX Logo" className="h-10" /> */}
+            <span className="text-blue-800">Rgen</span>
+            <span className="text-yellow-400">X</span>
           </div>
 
           {/* Signup Form */}
